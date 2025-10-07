@@ -7,15 +7,17 @@
 
 - Create a new Page Item with the following properties:
 
- - Property	Value
- - Name	P6_DISPLAY_IMAGE
- - Type	Display Image
- - Label	(Leave Blank)
- - Based On	Image URL Stored in the Page Item Value
- - Template	Optional
- - Custom Attributes	style="border:1px solid gray;width:120px;height:120px;"
- - Default → Type	Static
- - Static Value	'' (empty)
+| Property              | Value                                                     |
+| :-------------------- | :-------------------------------------------------------- |
+| **Name**              | `P6_DISPLAY_IMAGE`                                        |
+| **Type**              | Display Image                                             |
+| **Label**             | *(Leave Blank)*                                           |
+| **Based On**          | Image URL Stored in the Page Item Value                   |
+| **Template**          | Optional                                                  |
+| **Custom Attributes** | `style="border:1px solid gray;width:120px;height:120px;"` |
+| **Default → Type**    | Static                                                    |
+| **Static Value**      | `''` *(empty)*                                            |
+
 
 This item will display the selected image preview on the page.
 
@@ -23,11 +25,12 @@ This item will display the selected image preview on the page.
 
 Create another Page Item to allow the user to select an image file.
 
- - Property	Value
- - Name	P6_EMP_PHOTO
- - Type	File Browse
- - Storage Type	BLOB column / N/A (for preview only)
- - Accept File Types	image/*
+ | Property              | Value                                |
+| :-------------------- | :----------------------------------- |
+| **Name**              | `P6_EMP_PHOTO`                       |
+| **Type**              | File Browse                          |
+| **Storage Type**      | BLOB column / N/A (for preview only) |
+| **Accept File Types** | image/*                              |
 
 This item will serve as the input source for reading and displaying the image.
 
